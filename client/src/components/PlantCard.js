@@ -36,7 +36,7 @@ function PlantCard({ plant, handleUpdatePlant, handleDeletePlant  }) {
     });
       if (response.ok) {
         handleDeletePlant(id);
-        alert("Deleted Successfully 🌼")
+        alert("Deleted Successfully 🫡")
       }
   }
 
